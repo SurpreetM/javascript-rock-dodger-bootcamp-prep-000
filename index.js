@@ -131,6 +131,8 @@ function endGame() {
   document.remove
   
   clearInterval (gameInterval)
+  
+  window.removeEventListener('keydown', moveDodger)
 
   return alert('YOU LOSE!')
 }
