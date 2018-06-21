@@ -129,9 +129,7 @@ function endGame() {
   ROCKS.forEach(function(rock) { rock.remove() })
 
   document.remove
-
-  START.innerHTML = 'Play again?'
-  START.style.display = 'inline'
+  
   clearInterval (gameInterval)
 
   return alert('YOU LOSE!')
