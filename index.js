@@ -151,10 +151,12 @@ function moveDodger(e) {
     
     const code = e.which
     if (code === LEFT_ARROW) {
-    moveDodgerLeft() e.preventDefault()
+    moveDodgerLeft() 
+    e.preventDefault()
     e.stopPropagation()
   } else if (code === RIGHT_ARROW) {
-    moveDodgerRight() e.preventDefault()
+    moveDodgerRight() 
+    e.preventDefault()
     e.stopPropagation()
   }
   
